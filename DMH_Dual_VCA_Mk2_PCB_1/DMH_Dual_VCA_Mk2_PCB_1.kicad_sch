@@ -10,6 +10,18 @@
 		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
+	(junction
+		(at 54.61 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64aa824b-d852-4ad4-9783-b6538093c0b3")
+	)
+	(junction
+		(at 59.69 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb8f91b-381e-4ddd-b4ee-95b21facf285")
+	)
 	(wire
 		(pts
 			(xy 50.8 139.7) (xy 63.5 139.7)
@@ -32,7 +44,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 63.5 63.5)
+			(xy 31.75 152.4) (xy 31.75 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e91466b-7682-4dc2-b07c-9069faf96ac1")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 54.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -102,6 +124,36 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 119.38) (xy 59.69 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967fd405-3976-4a15-ac89-3814223f72ee")
+	)
+	(wire
+		(pts
+			(xy 59.69 119.38) (xy 63.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97963aaf-34ec-4f41-a11a-55ebb7d4e4da")
+	)
+	(wire
+		(pts
+			(xy 54.61 63.5) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4d3e6a-bf33-4caf-84e1-39a03dcf27e9")
+	)
+	(wire
+		(pts
 			(xy 50.8 78.74) (xy 63.5 78.74)
 		)
 		(stroke
@@ -112,7 +164,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 119.38) (xy 63.5 119.38)
+			(xy 54.61 63.5) (xy 54.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75a1f1f-8eba-40be-b966-758e85e44f1c")
+	)
+	(wire
+		(pts
+			(xy 50.8 119.38) (xy 59.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -186,9 +248,82 @@
 			)
 		)
 		(instances
-			(project "DMH_Transistor_VCA_PCB"
+			(project "DMH_Dual_VCA_Mk2_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 171.45)
+		(size 76.2 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "553a5bd5-fc44-4ad3-8f03-a59c878959e6")
+		(property "Sheetname" "Mixer"
+			(at 24.6884 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mixer.kicad_sch"
+			(at 102.1846 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Mixer Input A" input
+			(at 54.61 171.45 90)
+			(uuid "2e344397-15ee-4080-86b7-1546ebb15ec4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Mixer Input B" input
+			(at 59.69 171.45 90)
+			(uuid "4e04c6c2-461f-49c7-8e2b-5a18c263d91b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Mixer Output" output
+			(at 31.75 171.45 90)
+			(uuid "9b75bb5f-a4b2-496d-b251-d4733ed4b5f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DMH_Dual_VCA_Mk2_PCB_1"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(page "6")
 				)
 			)
 		)
@@ -299,7 +434,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Transistor_VCA_PCB"
+			(project "DMH_Dual_VCA_Mk2_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "5")
 				)
@@ -412,7 +547,7 @@
 			)
 		)
 		(instances
-			(project "DMH_Transistor_VCA_PCB"
+			(project "DMH_Dual_VCA_Mk2_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "3")
 				)
@@ -594,8 +729,18 @@
 				(justify right)
 			)
 		)
+		(pin "Mix Out Jack" input
+			(at 31.75 152.4 270)
+			(uuid "0242144f-770b-4ae9-9d9a-8f39a048925a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "DMH_Transistor_VCA_PCB"
+			(project "DMH_Dual_VCA_Mk2_PCB_1"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)

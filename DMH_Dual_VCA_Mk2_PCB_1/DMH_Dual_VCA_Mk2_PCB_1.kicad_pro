@@ -715,6 +715,10 @@
     [
       "7915b580-c9b0-4472-ab9c-d9fb99b1a92f",
       "Core Circuit B"
+    ],
+    [
+      "553a5bd5-fc44-4ad3-8f03-a59c878959e6",
+      "Mixer"
     ]
   ],
   "text_variables": {}
