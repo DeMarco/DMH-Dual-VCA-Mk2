@@ -603,6 +603,12 @@
 		(uuid "90cd9c5b-2029-428e-8790-e91746db7e05")
 	)
 	(junction
+		(at 50.8 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d3f622-db80-4276-83d9-19a1499e272e")
+	)
+	(junction
 		(at 50.8 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -728,7 +734,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 215.9) (xy 50.8 219.71)
+			(xy 50.8 215.9) (xy 50.8 228.6)
 		)
 		(stroke
 			(width 0)
@@ -795,6 +801,16 @@
 			(type default)
 		)
 		(uuid "490cee4f-11aa-4b93-a936-d8253cc1ee56")
+	)
+	(wire
+		(pts
+			(xy 50.8 228.6) (xy 59.69 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3188b2-4f12-40d4-a23b-6801b5351a6c")
 	)
 	(wire
 		(pts
@@ -995,6 +1011,16 @@
 			(type default)
 		)
 		(uuid "9f1e0e0a-1101-4a68-a818-c32fe1aea614")
+	)
+	(wire
+		(pts
+			(xy 50.8 228.6) (xy 50.8 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13afdf4-6eb3-4047-891f-32c1fd630d70")
 	)
 	(wire
 		(pts
@@ -1212,7 +1238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 2 Amt"
+		(property "Value" "CV B 2 Amt"
 			(at 104.14 177.7999 0)
 			(effects
 				(font
@@ -1279,7 +1305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 1"
+		(property "Value" "CV B 1"
 			(at 78.74 215.8999 0)
 			(effects
 				(font
@@ -1346,7 +1372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Offset"
+		(property "Value" "Offset A"
 			(at 91.44 88.8999 0)
 			(effects
 				(font
@@ -1355,7 +1381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny"
 			(at 88.9 90.17 0)
 			(effects
 				(font
@@ -1413,7 +1439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Input"
+		(property "Value" "Input A"
 			(at 66.04 126.9999 0)
 			(effects
 				(font
@@ -1546,7 +1572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 1"
+		(property "Value" "CV A 1"
 			(at 78.74 139.6999 0)
 			(effects
 				(font
@@ -1613,7 +1639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Input"
+		(property "Value" "Input B"
 			(at 66.04 203.1999 0)
 			(effects
 				(font
@@ -1680,7 +1706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 2 Amt"
+		(property "Value" "CV A 2 Amt"
 			(at 104.14 101.5999 0)
 			(effects
 				(font
@@ -1730,7 +1756,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 219.71 0)
+		(at 50.8 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1739,7 +1765,7 @@
 		(fields_autoplaced yes)
 		(uuid "944efa41-3249-4269-ad61-9706ee935581")
 		(property "Reference" "#PWR02"
-			(at 50.8 226.06 0)
+			(at 50.8 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 224.79 0)
+			(at 50.8 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 219.71 0)
+			(at 50.8 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 219.71 0)
+			(at 50.8 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1800,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 219.71 0)
+			(at 50.8 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 2"
+		(property "Value" "CV B 2"
 			(at 104.14 215.8999 0)
 			(effects
 				(font
@@ -1880,7 +1906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 2"
+		(property "Value" "CV A 2"
 			(at 104.14 139.6999 0)
 			(effects
 				(font
@@ -2014,7 +2040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Output"
+		(property "Value" "Out A"
 			(at 116.84 126.9999 0)
 			(effects
 				(font
@@ -2081,7 +2107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 1 Amt"
+		(property "Value" "CV A 1 Amt"
 			(at 78.74 101.5999 0)
 			(effects
 				(font
@@ -2148,7 +2174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV 1 Amt"
+		(property "Value" "CV B 1 Amt"
 			(at 78.74 177.7999 0)
 			(effects
 				(font
@@ -2191,6 +2217,73 @@
 			(project "DMH_Transistor_VCA_PANEL"
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
+		(at 63.5 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8990f9c-96a8-4ca4-9b13-847a142997bc")
+		(property "Reference" "H19"
+			(at 66.04 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mix"
+			(at 66.04 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+			(at 63.5 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm"
+			(at 66.04 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3b27dbf3-fa26-4a6e-be9f-cd68d2c65655")
+		)
+		(instances
+			(project "DMH_Dual_VCA_Mk2_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H19")
 					(unit 1)
 				)
 			)
@@ -2361,7 +2454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Offset"
+		(property "Value" "Offset B"
 			(at 91.44 165.0999 0)
 			(effects
 				(font
@@ -2370,7 +2463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Pot_Cutout_Small"
+		(property "Footprint" "SynthStuff:Pot_Cutout_Tiny"
 			(at 88.9 166.37 0)
 			(effects
 				(font
@@ -2428,7 +2521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Output"
+		(property "Value" "Out B"
 			(at 116.84 203.1999 0)
 			(effects
 				(font
