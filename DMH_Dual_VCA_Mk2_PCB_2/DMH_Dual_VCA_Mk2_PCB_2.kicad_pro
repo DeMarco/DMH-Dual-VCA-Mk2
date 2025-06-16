@@ -58,32 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|66421207|102700000|f73cf678-1d47-4229-86d6-e88c0c66961b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|70271888|80368614|d52b3c38-cc8f-4c56-b4ca-739350b00e6f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|70284921|66345401|e818575d-a563-4113-adf7-0069a2e0c30a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|76260000|122061207|9cd01a04-6472-41f5-a10c-6d0080b86240|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|76260000|135561207|7fcc251d-e1e2-4d42-ac1b-c8a1ded9e0e6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|83733351|102730743|dab5d190-373b-45d9-b370-6b6360f56fb8|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -265,7 +240,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1143000|342900|d427b4bc-5c05-442b-8b30-883b4fb62da8|00000000-0000-0000-0000-000000000000|/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679|/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1397000|1016000|7b7ed65b-5665-4ca3-ba36-72b7502fc37c|00000000-0000-0000-0000-000000000000|/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679|/58f4306d-5387-4983-bb08-41a2313fd315/ce3fef8b-9f1d-4178-b50b-4a046c030679|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -536,14 +520,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(D1-A)": [
-        "Power"
-      ],
-      "Net-(D2-K)": [
-        "Power"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -710,22 +687,6 @@
     [
       "ce3fef8b-9f1d-4178-b50b-4a046c030679",
       "Inputs and Outputs"
-    ],
-    [
-      "7ad2d702-dfb7-4d49-a82d-34430dd5948f",
-      "Core Circuit A"
-    ],
-    [
-      "0cdf34b2-39cd-4d9e-981a-97cd34791509",
-      "Power"
-    ],
-    [
-      "7915b580-c9b0-4472-ab9c-d9fb99b1a92f",
-      "Core Circuit B"
-    ],
-    [
-      "553a5bd5-fc44-4ad3-8f03-a59c878959e6",
-      "Mixer"
     ]
   ],
   "text_variables": {}
